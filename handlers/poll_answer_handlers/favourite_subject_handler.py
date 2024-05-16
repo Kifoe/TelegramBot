@@ -46,6 +46,7 @@ class FavoriteSubjectHandler(BaseHandler):
         }
         context.bot_data.update(payload)
 
+    @staticmethod
     async def poll_answer_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         """Summarize a users poll vote"""
         answer = update.poll_answer

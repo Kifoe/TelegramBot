@@ -1,1 +1,1 @@
-from .favorite_subject_handler import FavoriteSubjectHandler
+from .favourite_subject_handler import FavoriteSubjectHandler
